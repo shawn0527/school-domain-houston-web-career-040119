@@ -7,7 +7,6 @@ class School
 
   def roster
     @roster = {}
-    @roster[@grade]=[@name]
     @roster
   end
 
