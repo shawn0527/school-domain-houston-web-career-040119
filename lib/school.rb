@@ -6,13 +6,13 @@ class School
   end
 
   def roster
-    if @grade = nil 
+    if @grade = nil
       return {}
     else @roster[@grade] = []
       @roster[@grade] << @name
       return @roster
   end
-  
+
 
   def add_student(name, grade)
     @name = name
