@@ -16,5 +16,4 @@ class School
     @grade = grade
   end
 
-  binding.pry
 end
