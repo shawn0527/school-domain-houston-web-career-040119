@@ -4,12 +4,9 @@ class School
     @school = school
   end
 
-NAMES = []
-
   def roster
     @roster = {}
-    NAMES << @name
-    @roster[@grade]=NAMES
+    @roster[@grade]=[@name]
   end
 
   def add_student(name, grade)
