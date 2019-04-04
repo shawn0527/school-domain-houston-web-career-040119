@@ -6,16 +6,18 @@ class School
   end
 
   def roster
-    @roster = {}
-    @roster
+    if @grade = nil 
+      return {}
+    else @roster[@grade] = []
+      @roster[@grade] << @name
+      return @roster
   end
+  
 
   def add_student(name, grade)
     @name = name
     @grade = grade
   end
-
-  @roster[@grade]=[@name]
 
   binding.pry
   "str"
