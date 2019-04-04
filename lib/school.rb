@@ -1,4 +1,5 @@
 # code here!
+require 'pry'
 class School
   def initialize(school)
     @school = school
@@ -13,4 +14,6 @@ class School
     @name = name
     @grade = grade
   end
+
+  binding.pry
 end
